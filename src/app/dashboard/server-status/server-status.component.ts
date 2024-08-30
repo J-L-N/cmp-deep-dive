@@ -17,7 +17,6 @@ export class ServerStatusComponent implements OnInit {
     effect(() => { // with this function angular set a subscription to a signal
       console.log(this.currentStatus()); //The status change will be logged to console after any change
     });
-
   }
 
   ngOnInit() {
